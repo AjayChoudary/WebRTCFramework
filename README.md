@@ -2,9 +2,9 @@ WebRTC Framework
 =================
 
 
-* [Android](#Android)
-* [IOS](#IOS)
-* [OSX](#OSX/Mac)
+* [Android](#android)
+* [IOS](#ios)
+* [OSX](#osxmac)
 
 
 ## Android:
