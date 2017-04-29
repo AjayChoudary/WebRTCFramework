@@ -1,8 +1,17 @@
-# WebRTCFramework
+WebRTC Framework
+=================
 
-Android:
-	Fraework is generated with following command on M58 branch (Apr'2017)
-	for armeabi-v7a, arm64-v8a, x86 & x86_64 architectures
+
+* [Android](#Android)
+* [IOS](#IOS)
+* [OSX](#OSX/Mac)
+
+
+## Android:
+
+Fraework is generated with following command on M58 branch (Apr'2017)
+for armeabi-v7a, arm64-v8a, x86 & x86_64 architectures
+	
 	./tools-webrtc/android/build_aar.py --arch 'armeabi-v7a' 'arm64-v8a' 'x86' 'x86_64'
 	
 	AndroidStudio Setup:
@@ -26,9 +35,11 @@ Android:
 
 	Note: You can build the same by following instaructions at https://webrtc.org/native-code/android/
 	
-IOS:
-	WebRTC.framework is generated with following commands on M58 branch (Apr'2017)
-	For armv7 & arm64 architectures
+## IOS:
+
+WebRTC.framework is generated with following commands on M58 branch (Apr'2017)
+For armv7 & arm64 architectures
+	
 	./tools-webrtc/ios/build_ios_libs.sh	
 	
 	Xcode Setup:
@@ -37,7 +48,6 @@ IOS:
 	
 	Note: You can build the same by following instaructions at https://webrtc.org/native-code/ios/
 
-Mac: 
+## OSX/Mac: 
 	WebRTC.framework is generated in Oct'2016 for X86_64 architecture
-	
 	For Xcode setup follow the instructions of IOS 
